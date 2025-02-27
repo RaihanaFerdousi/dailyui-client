@@ -1,12 +1,15 @@
 import React from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from '../Components/Navbar/Navbar';
-import { Outlet } from 'react-router-dom';
 
 const Main = () => {
+    const location = useLocation();
+    const hideNavbarOn = ["/landingPage"]; // Add the path of LandingPage
+
     return (
         <div>
-            <Navbar/>
-            <Outlet/>
+            {!hideNavbarOn.includes(location.pathname) && <Navbar />}
+            <Outlet />
         </div>
     );
 };

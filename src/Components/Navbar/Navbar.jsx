@@ -31,6 +31,11 @@ const Navbar = () => {
               <a>Login</a>
             </li>
             </Link>
+            <Link to='/landingPage'>
+            <li>
+              <a>Landing Page</a>
+            </li>
+            </Link>
             <Link to='/cardCheckout'>
             <li>
               <a>Card Checkout</a>

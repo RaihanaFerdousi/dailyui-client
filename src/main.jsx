@@ -8,6 +8,7 @@ import {
 import SignUp from './Components/Sign-Up/SignUp';
 import CardCheckout from './Components/Credit Card Checkout/CardCheckout';
 import Main from './Layout/Main';
+import LandingPage from './Components/landingpage/landingpage';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'cardCheckout',
         element: <CardCheckout/>
+      },
+      {
+        path: 'landingPage',
+        element: <LandingPage/>
       }
     ]
   },
