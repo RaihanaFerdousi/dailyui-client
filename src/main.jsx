@@ -9,6 +9,7 @@ import SignUp from './Components/Sign-Up/SignUp';
 import CardCheckout from './Components/Credit Card Checkout/CardCheckout';
 import Main from './Layout/Main';
 import LandingPage from './Components/landingpage/landingpage';
+import Calculation from './Components/Calculation/Calculation';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: 'landingPage',
         element: <LandingPage/>
+      },
+      {
+        path: 'calculation',
+        element: <Calculation/>
       }
     ]
   },

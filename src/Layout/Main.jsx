@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar';
 
 const Main = () => {
     const location = useLocation();
-    const hideNavbarOn = ["/landingPage"]; // Add the path of LandingPage
+    const hideNavbarOn = ["/landingPage"]
 
     return (
         <div>

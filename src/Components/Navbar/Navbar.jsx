@@ -41,6 +41,11 @@ const Navbar = () => {
               <a>Card Checkout</a>
             </li>
             </Link>
+            <Link to='/calculation'>
+            <li>
+              <a>Calculation</a>
+            </li>
+            </Link>
           </ul>
         </div>
       </div>
