@@ -5,7 +5,7 @@ import { Elements, CardElement, useStripe, useElements } from "@stripe/react-str
 
 const stripePromise = loadStripe("pk_test_51QhrdlGRr2USsb15b5SNd4DJS8nk5083J1DHGiLE1YbJCO9YBPvT9yMxhvzucsIaH4SPf4gE2tc2BMd9BMKbwRvI00OjzDdxVL");
 
-const CheckoutForm = () => {
+const DailyUi_2 = () => {
   const stripe = useStripe();
   const elements = useElements();
   const [loading, setLoading] = useState(false);
@@ -112,4 +112,4 @@ const StripeWrapper = () => {
   );
 };
 
-export default StripeWrapper;
+export default DailyUi_2;

@@ -10,6 +10,7 @@ export default {
         sans: ['Inter', 'sans-serif'],
         serif: ['Playfair Display', 'serif'],
       },
+      
     },
   },
   daisyui: {

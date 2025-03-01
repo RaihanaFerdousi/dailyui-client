@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { DollarSign, Home, Calendar, Percent, Calculator, Info } from 'lucide-react';
 
-const Calculation = () => {
+const DailyUi_4 = () => {
   const [loanAmount, setLoanAmount] = useState<number>(300000);
   const [interestRate, setInterestRate] = useState<number>(4.5);
   const [loanTerm, setLoanTerm] = useState<number>(30);
@@ -222,4 +222,4 @@ const Calculation = () => {
   );
 }
 
-export default Calculation;
+export default DailyUi_4;

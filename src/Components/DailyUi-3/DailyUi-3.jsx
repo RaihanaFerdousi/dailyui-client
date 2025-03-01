@@ -2,7 +2,7 @@ import React from 'react';
 import { BookOpen, Search, ShoppingBag, Menu, ChevronRight, Heart} from 'lucide-react';
 import { Link } from "react-router-dom";
 
-const LandingPage = () => {
+const DailyUi_3 = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900 flex flex-col">
       <header className="border-b border-gray-200">
@@ -201,4 +201,4 @@ const LandingPage = () => {
   );
 }
 
-export default LandingPage;
+export default DailyUi_3;

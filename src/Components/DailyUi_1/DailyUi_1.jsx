@@ -14,7 +14,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const SignUp = () => {
+const DailyUi_1 = () => {
   const [isSignUp, setIsSignUp] = useState(true);
   const [step, setStep] = useState(1);
   const [email, setEmail] = useState("");
@@ -245,4 +245,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default DailyUi_1;

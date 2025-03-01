@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import appIcon from '../DailyUi-5/DailyUi-5.svg';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 shadow-md">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -26,31 +27,26 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <Link to='/login'>
             <li>
-              <a>Login</a>
+              <Link to='/login'>Login</Link>
             </li>
-            </Link>
-            <Link to='/landingPage'>
             <li>
-              <a>Landing Page</a>
+              <Link to='/landingPage'>Landing Page</Link>
             </li>
-            </Link>
-            <Link to='/cardCheckout'>
             <li>
-              <a>Card Checkout</a>
+              <Link to='/cardCheckout'>Card Checkout</Link>
             </li>
-            </Link>
-            <Link to='/calculation'>
             <li>
-              <a>Calculation</a>
+              <Link to='/calculation'>Calculation</Link>
             </li>
-            </Link>
           </ul>
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link to="/" className="btn btn-ghost">
+          <img src={appIcon} alt="DailyUI Challenge" className="h-8 w-8 mr-2" />
+          <span className="text-xl font-bold">DailyUI Challenge</span>
+        </Link>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">

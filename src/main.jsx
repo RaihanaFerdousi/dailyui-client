@@ -5,11 +5,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import SignUp from './Components/Sign-Up/SignUp';
-import CardCheckout from './Components/Credit Card Checkout/CardCheckout';
-import Main from './Layout/Main';
-import LandingPage from './Components/landingpage/landingpage';
-import Calculation from './Components/Calculation/Calculation';
+import DailyUi_1 from './Components/DailyUi_1/DailyUi_1';
+import DailyUi_2 from './Components/DailyUi-2/DailyUi-2';
+import DailyUi_3 from './Components/DailyUi-3/DailyUi-3';
+import DailyUi_4 from './Components/DailyUi_4/DailyUi_4';
 
 const router = createBrowserRouter([
   {
@@ -18,20 +17,20 @@ const router = createBrowserRouter([
     children: [
       {
         path: 'login',
-        element: <SignUp />,
+        element: <DailyUi_1 />,
       },
       {
         path: 'cardCheckout',
-        element: <CardCheckout/>
+        element: <DailyUi_2/>
       },
       {
         path: 'landingPage',
-        element: <LandingPage/>
+        element: <DailyUi_3/>
       },
       {
         path: 'calculation',
-        element: <Calculation/>
-      }
+        element: <DailyUi_4/>
+      },
     ]
   },
 ]);
