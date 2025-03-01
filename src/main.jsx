@@ -9,6 +9,7 @@ import DailyUi_1 from './Components/DailyUi_1/DailyUi_1';
 import DailyUi_2 from './Components/DailyUi-2/DailyUi-2';
 import DailyUi_3 from './Components/DailyUi-3/DailyUi-3';
 import DailyUi_4 from './Components/DailyUi_4/DailyUi_4';
+import Main from './Layout/Main';
 
 const router = createBrowserRouter([
   {
