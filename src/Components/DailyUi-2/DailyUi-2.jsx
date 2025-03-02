@@ -107,9 +107,9 @@ const DailyUi_2 = () => {
 const StripeWrapper = () => {
   return (
     <Elements stripe={stripePromise}>
-      <CheckoutForm />
+      <DailyUi_2 />
     </Elements>
   );
 };
 
-export default DailyUi_2;
+export default StripeWrapper;
