@@ -10,6 +10,7 @@ import DailyUi_2 from './Components/DailyUi-2/DailyUi-2';
 import DailyUi_3 from './Components/DailyUi-3/DailyUi-3';
 import DailyUi_4 from './Components/DailyUi_4/DailyUi_4';
 import Main from './Layout/Main';
+import DailyUi_6 from './Components/DailyUi_6/DailyUi_6';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: 'calculation',
         element: <DailyUi_4/>
       },
+      {
+        path: 'profile',
+        element: <DailyUi_6/>
+      }
     ]
   },
 ]);

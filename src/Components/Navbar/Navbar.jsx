@@ -31,6 +31,9 @@ const Navbar = () => {
               <Link to='/login'>Login</Link>
             </li>
             <li>
+              <Link to='/profile'>Profile</Link>
+            </li>
+            <li>
               <Link to='/landingPage'>Landing Page</Link>
             </li>
             <li>
