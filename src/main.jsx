@@ -11,6 +11,7 @@ import DailyUi_3 from './Components/DailyUi-3/DailyUi-3';
 import DailyUi_4 from './Components/DailyUi_4/DailyUi_4';
 import Main from './Layout/Main';
 import DailyUi_6 from './Components/DailyUi_6/DailyUi_6';
+import DailyUi_7 from './Components/DailyUi_7/DailyUi_7';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'profile',
         element: <DailyUi_6/>
+      },
+      {
+        path: 'settings',
+        element: <DailyUi_7/>,
       }
     ]
   },
